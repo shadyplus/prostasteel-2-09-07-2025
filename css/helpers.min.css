@@ -1,0 +1,36 @@
+/* Code tidied up by ScrapBook */
+a.remove { position: absolute; top: 0px; right: 0px; width: 20px; height: 20px; display: block; line-height: 20px; text-align: center; font-size: 15px; }
+a.remove::before { content: ""; font-family: "tiefonticon"; color: rgb(231, 76, 60); transition: color 0.15s ease 0s; }
+a.remove:hover::before { color: rgb(191, 39, 24); }
+a.remove.big-btn { width: 25px; height: 25px; line-height: 25px; font-size: 22px; }
+a.remove.light-btn:not(:hover)::before { color: rgb(255, 255, 255); }
+.side-aside a.remove { z-index: 1; top: 15px; left: 50%; right: auto; transform: translateX(-50%); }
+.theiaStickySidebar::after { content: ""; display: table; clear: both; }
+.side-aside, .has-custom-scroll { overflow-x: hidden; scrollbar-width: thin; }
+@media (max-width: 479px) {
+}
+@media (max-width: 991px) {
+}
+@media (min-width: 992px) {
+}
+@font-face {
+  font-family: "tiefonticon";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tielabs-fonticon.eot") format("embedded-opentype"), url("../fonts/tielabs-fonticon.woff") format("woff"), url("../fonts/tielabs-fonticon.ttf") format("truetype"), url("../images/tielabs-fonticon.svg") format("svg");
+}
+.tie-icon-facebook::before { content: ""; }
+.tie-icon-home::before { content: ""; }
+.tie-icon-camera::before { content: ""; }
+.tie-icon-twitter::before { content: ""; }
+.tie-icon-pinterest::before { content: ""; }
+.tie-icon-angle-up::before { content: ""; }
+.tie-icon-reddit::before { content: ""; }
+.tie-icon-paper-plane::before { content: ""; }
+.tie-icon-share::before { content: ""; }
+.tie-icon-whatsapp::before { content: ""; }
+.tie-icon-facebook::before { content: ""; }
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}

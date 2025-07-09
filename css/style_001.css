@@ -1,0 +1,15 @@
+/* Code tidied up by ScrapBook */
+.entry-header .entry-title { display: inline-block; }
+.entry-header h1 { font-weight: 600; }
+@media (min-width: 768px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 480px) {
+}
+@media (min-width: 480px) {
+}
+@media (max-width: 768px) {
+}

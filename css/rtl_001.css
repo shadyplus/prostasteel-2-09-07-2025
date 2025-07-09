@@ -1,0 +1,117 @@
+/* Code tidied up by ScrapBook */
+html { direction: rtl; }
+.tie-col-xs-1, .tie-col-xs-10, .tie-col-xs-11, .tie-col-xs-12, .tie-col-xs-2, .tie-col-xs-3, .tie-col-xs-4, .tie-col-xs-5, .tie-col-xs-6, .tie-col-xs-7, .tie-col-xs-8, .tie-col-xs-9 { float: right; }
+@media (min-width: 768px) {
+  .tie-col-sm-1, .tie-col-sm-10, .tie-col-sm-11, .tie-col-sm-12, .tie-col-sm-2, .tie-col-sm-3, .tie-col-sm-4, .tie-col-sm-5, .tie-col-sm-6, .tie-col-sm-7, .tie-col-sm-8, .tie-col-sm-9 { float: right; }
+}
+@media (min-width: 992px) {
+  .tie-col-md-1, .tie-col-md-10, .tie-col-md-11, .tie-col-md-12, .tie-col-md-2, .tie-col-md-3, .tie-col-md-4, .tie-col-md-5, .tie-col-md-6, .tie-col-md-7, .tie-col-md-8, .tie-col-md-9 { float: right; }
+}
+.tie-alignleft { float: right; }
+.tie-alignright { float: left; }
+.post-cat { margin-right: 0px; margin-left: 4px; }
+.post-meta .meta-item { margin-left: 8px; margin-right: 0px; }
+.post-meta .tie-icon::before { padding-left: 3px; padding-right: 0px ! important; }
+@media (max-width: 767px) {
+  .entry-header .post-meta > span, .entry-header .post-meta > div, .main-content .post-meta > span, .main-content .post-meta > div { float: right; }
+}
+a.remove { left: 0px; right: auto; }
+#logo, .header-layout-1 #logo { float: right; }
+@media (min-width: 992px) {
+  .menu-item-has-children > a::before, .mega-menu > a::before { left: 12px; right: auto; }
+  .menu-item-has-children .menu-item-has-children > a::before, .mega-menu .menu-item-has-children > a::before { border-right-color: rgb(255, 255, 255); border-left-color: transparent; }
+  .main-menu .menu-sub-content .menu-item-has-children > a::before { left: 5px; right: auto; }
+  #theme-header .menu > li.menu-item-has-children:not(.is-icon-only) > a, #theme-header .main-menu li.mega-menu:not(.is-icon-only) > a { padding-left: 25px; padding-right: 15px; }
+  .main-nav-light .main-nav .menu-item-has-children .menu-item-has-children > a::before, .main-nav-light .mega-menu .menu-item-has-children > a::before { border-right-color: rgb(44, 47, 52); border-left-color: transparent ! important; }
+  .main-nav-light .main-nav .menu-item-has-children li:hover > a::before, .main-nav-light .mega-menu li:hover > a::before { border-right-color: rgb(0, 136, 255); }
+  .main-menu, .top-menu, .header-menu .menu li, #sticky-logo, .weather-menu-item .weather-forecast-day, .main-menu .mega-cat-more-links > li, .top-nav .tie-alignleft .components, .top-nav .tie-alignleft .components > i { float: right; }
+  .header-menu .menu ul ul { right: 100%; left: auto; }
+  .components, .components > li { float: left; }
+}
+@media (min-width: 480px) {
+}
+@media (min-width: 992px) {
+}
+@media (max-width: 991px) {
+  #theme-header.has-normal-width-logo #logo { text-align: right; }
+  .mobile-header-components { left: 15px; right: auto; }
+}
+#mobile-header-components-area_1 .components { flex-direction: row-reverse; }
+@media (max-width: 991px) {
+  .logo-container, .header-layout-1 .main-menu-wrapper { flex-direction: row-reverse; }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 992px) {
+}
+@media (max-width: 600px) {
+}
+@media (min-width: 768px) {
+}
+.mag-box-title h3 { float: right; margin-right: 0px; margin-left: 20px; }
+@media (min-width: 671px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 670px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (max-width: 670px) {
+}
+@media (min-width: 992px) {
+}
+.entry table td, .entry table th { text-align: right; border: 1px dotted rgba(0, 0, 0, 0.1); }
+.entry ol, .entry ul { padding-right: 15px; padding-left: 0px; margin-right: 20px; margin-left: 0px; }
+q::before, blockquote::before { content: ""; }
+.featured-area .single-caption-text { right: 0px; left: auto; }
+#reading-position-indicator { right: 0px; left: auto; }
+.entry-header .post-meta .meta-item { margin-right: 0px; margin-left: 12px; }
+@media (min-width: 992px) {
+}
+.share-links a .share-btn-icon { float: right; }
+.share-title { padding-left: 15px; padding-right: 0px; float: right; }
+#related-posts .related-item { float: right; }
+@media (max-width: 767px) {
+  #related-posts .related-item:nth-child(2n+1) { clear: right ! important; }
+}
+@media (min-width: 480px) {
+  .about-author .author-avatar { float: right; }
+  .about-author .author-info { padding-right: 20px; padding-left: 0px; }
+}
+@media (max-width: 670px) {
+}
+@media (max-width: 479px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 480px) {
+}
+.block-head-3 .comment-reply-title::after, .block-head-3 .the-global-title::after, .block-head-3 .related.products > h2::after, .block-head-3 .up-sells > h2::after, .block-head-3 .cross-sells > h2::after, .block-head-3 .cart_totals > h2::after, .block-head-3 .bbp-form legend::after { right: 0px; left: auto; }
+.post-widget-body { padding-left: 0px; padding-right: 125px; }
+.post-widget-thumbnail { float: right; margin-left: 15px; margin-right: 0px; }
+@media (max-width: 767px) {
+}
+.widget_categories li, .widget_product_categories li, .widget_layered_nav li, .widget_archive li, .widget_nav_menu li, .widget_meta li, .widget_pages li, .widget_recent_entries li, .widget_display_forums li, .widget_display_views li, .widget_rss li, .widget_display_stats dt { padding: 5px 12px 5px 0px; }
+.widget_categories li a::before, .widget_product_categories li a::before, .widget_layered_nav li a::before, .widget_archive li a::before, .widget_nav_menu li a::before, .widget_meta li a::before, .widget_pages li a::before, .widget_recent_entries li a::before, .widget_display_forums li a::before, .widget_display_views li a::before, .widget_rss li a::before, .widget_display_stats dt::before { content: ""; text-align: right; margin-right: -12px; margin-left: 0px; }
+@media (max-width: 991px) {
+}
+@media (max-width: 991px) {
+}
+@media (min-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+#go-to-top { right: auto; left: 15px; }
+@media (max-width: 768px) {
+  #go-to-top { right: auto; left: 5px; }
+}
+@media (min-width: 768px) {
+  .site-info-layout-2 .copyright-text-first { float: right; }
+}

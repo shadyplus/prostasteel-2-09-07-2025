@@ -1,0 +1,12 @@
+/* Code tidied up by ScrapBook */
+@media print {
+  html, body { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); margin: 0px; padding: 0px; }
+  img { max-width: 100%; display: block; }
+  ul, ol, li { page-break-inside: avoid; }
+  h1, h2, h3, h4, h5, h6 { page-break-after: avoid; }
+  table, tr, td { page-break-before: avoid; }
+  .single-post.sidebar-right .main-content, .single-post.sidebar-left .main-content { width: 100%; }
+  .single-post .tie-row { border: 0px none; }
+  .single-post .main-content { border: 0px none; max-width: 75% ! important; margin: 0px auto ! important; float: none ! important; }
+  .single-post #theme-header, .single-post .sidebar, .single-post #footer, .single-post .slider-area, .single-post .mobile-header-components, .single-post .share-buttons, .single-post #post-newsletter, .single-post .prev-next-post-nav, .single-post #related-posts, .single-post #respond, .single-post .tie-video .featured-area, .single-post figure a::after, .single-post .post-tags, .single-post #check-also-box, .single-post #go-to-content, .single-post #breadcrumb, .single-post .toggle-post-content, .single-post #add-comment-block, .single-post .about-author, .single-post #go-to-top, .single-post #reading-position-indicator { display: none ! important; }
+}
